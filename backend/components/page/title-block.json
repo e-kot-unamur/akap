@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_title_blocks",
+  "info": {
+    "name": "Title block",
+    "icon": "window-maximize",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

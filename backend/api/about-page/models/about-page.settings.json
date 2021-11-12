@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "name": "About Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "A propos de nous"
+    },
+    "TextAndImage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.text-and-image",
+      "required": true
+    },
+    "StaffSectionTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Notre équipe"
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.title-block",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_interactions_links",
+  "info": {
+    "name": "Internal Link",
+    "icon": "external-link-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "regex": "^\\/(([A-z0-9\\-\\%]+\\/)*[A-z0-9\\-\\%]+$)?",
+      "required": true
+    }
+  }
+}

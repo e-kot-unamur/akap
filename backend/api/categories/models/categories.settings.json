@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "name": "Catégories",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "color": {
+      "type": "colorpicker",
+      "columnType": "longtext"
+    },
+    "kot_a_projets": {
+      "via": "categories",
+      "collection": "kot-a-projet"
+    }
+  }
+}

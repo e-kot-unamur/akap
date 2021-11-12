@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_page_hero_blocks",
+  "info": {
+    "name": "Hero-block",
+    "icon": "gem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

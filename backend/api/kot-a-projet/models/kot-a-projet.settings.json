@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kot_a_projets",
+  "info": {
+    "name": "Kot à Projet",
+    "description": "Ajoutez ici votre kot à projet"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "location": {
+      "type": "string"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "private": false,
+      "regex": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "categories": {
+      "collection": "categories",
+      "via": "kot_a_projets",
+      "dominant": true
+    },
+    "pictures": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_text_and_images",
+  "info": {
+    "name": "Text and image",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

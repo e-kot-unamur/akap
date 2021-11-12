@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_kap_logo_galleries",
+  "info": {
+    "name": "kap logo gallery",
+    "icon": "copy"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

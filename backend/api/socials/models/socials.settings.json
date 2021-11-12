@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "socials",
+  "info": {
+    "name": "Socials",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "regex": "[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "type": "iconpicker",
+      "columnType": "longtext"
+    }
+  }
+}

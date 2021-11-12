@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_interactions_external_links",
+  "info": {
+    "name": "external link",
+    "icon": "external-link-square-alt"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": false
+    },
+    "url": {
+      "type": "string",
+      "regex": "[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)",
+      "required": true
+    }
+  }
+}

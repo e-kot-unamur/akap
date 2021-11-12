@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kot-a-projets",
+      "handler": "kot-a-projet.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kot-a-projets/count",
+      "handler": "kot-a-projet.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kot-a-projets/:id",
+      "handler": "kot-a-projet.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kot-a-projets",
+      "handler": "kot-a-projet.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kot-a-projets/:id",
+      "handler": "kot-a-projet.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kot-a-projets/:id",
+      "handler": "kot-a-projet.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_page_staff",
+  "info": {
+    "name": "Staff",
+    "icon": "user-friends"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
