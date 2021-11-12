@@ -64,7 +64,7 @@ function ProductGallery({ products, id }: props): JSX.Element {
     <div>
       <div className={classes.title}>
         <Typography variant="h3">Besoin de matos ?</Typography>
-        <Typography variant="h6">Contact le kot à projet</Typography>
+        <Typography variant="h6">Contacte le kot-à-projet</Typography>
       </div>
       <div className={classes.root}>
         <GridList className={classes.gridList} cols={2.5}>

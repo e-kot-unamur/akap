@@ -2,8 +2,8 @@
   "kind": "collectionType",
   "collectionName": "kot_a_projets",
   "info": {
-    "name": "Kot à Projet",
-    "description": "Ajoutez ici votre kot à projet"
+    "name": "Kot-à-projet",
+    "description": "Ajoutez ici votre kot-à-projet"
   },
   "options": {
     "increments": true,

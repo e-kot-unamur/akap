@@ -79,7 +79,7 @@ function Navbar(): JSX.Element {
                 variant="square"
                 className={classes.logo}
                 src="/logo.png"
-                alt="Logo de l'Àkap"
+                alt="Logo de l'AKàP"
               />
             </Link>
             <Hidden smDown>

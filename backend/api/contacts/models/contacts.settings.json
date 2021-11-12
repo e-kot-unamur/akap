@@ -3,7 +3,7 @@
   "collectionName": "contacts",
   "info": {
     "name": "Contacts",
-    "description": "Ajoutez ici les points de contact de votre kot à projet"
+    "description": "Ajoutez ici les points de contact de votre kot-à-projet"
   },
   "options": {
     "increments": true,

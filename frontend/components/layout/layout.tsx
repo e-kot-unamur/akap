@@ -19,7 +19,7 @@ interface props {
   title?: string;
 }
 
-export default function Layout({ children, title = "L'Àkap" }: props): JSX.Element {
+export default function Layout({ children, title = "L'AKàP" }: props): JSX.Element {
   const classes = useStyles();
   return (
     <div>
@@ -29,7 +29,7 @@ export default function Layout({ children, title = "L'Àkap" }: props): JSX.Elem
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <meta
           name="description"
-          content="Site officiel de l'Assemblée des Kots-à-Projets (AKàP) de l'Université de Namur (unamur)"
+          content="Site officiel de l'Assemblée des kots-à-projet (AKàP) de l'Université de Namur (UNamur)"
         />
         <meta name="og:title" content={title} />
         <meta name="twitter:card" content="summary_large_image" />

@@ -63,7 +63,7 @@ function HeroBlock({ title, content, backgroud }: props): JSX.Element {
           <div dangerouslySetInnerHTML={{ __html: Content }} />
           <Link href="/contact">
             <Button variant="outlined" color="primary">
-              Contacte nous !
+              Contacte-nous !
             </Button>
           </Link>
         </div>

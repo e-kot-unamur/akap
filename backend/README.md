@@ -1,3 +1,3 @@
 # Strapi application
 
-Le backend strapi du site de l'akap
+Le backend strapi du site de l'AKàP.

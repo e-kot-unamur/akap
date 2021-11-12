@@ -44,7 +44,7 @@ export default function Kaps({ kaps }: param): JSX.Element {
         <Container className={classes.main}>
           <Typography variant="h6" className={classes.title}>
             Il n&apos;y a pas encore de projet il ne tien qu&apos;à toi d&apos;en créer un.
-            N&apos;hesite pas à contacter l&apos;akap via les différents
+            N&apos;hesite pas à contacter l&apos;AKàP via les différents
             <Link href="/contact"> points de contact </Link>
           </Typography>
         </Container>
